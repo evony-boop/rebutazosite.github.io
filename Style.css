@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #fff0f5;
+    color: #444;
+    text-align: center;
+}
+
+.login-box {
+    background: #ffffff;
+    width: 320px;
+    margin: 120px auto;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(255, 182, 193, 0.4);
+}
+
+.login-box h2 {
+    color: #d63384;
+    margin-bottom: 5px;
+}
+
+.login-box p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #f4b6c2;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: #f783ac;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-box button:hover {
+    background: #e64980;
+}
+
+header {
+    background: linear-gradient(to right, #f783ac, #fbcfe8);
+    color: white;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+nav {
+    background: #ffd6e8;
+    padding: 12px;
+}
+
+nav a {
+    color: #a61e4d;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.3);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery img: :nth-child(4) {
+    grid-column: 2;
+}
+
+.content h2 {
+    color: #d63384;
+}
+
+footer {
+    background: #f783ac;
+    color: white;
+    padding: 12px;
+    margin-top: 40px;
+    font-size: 14px;
+}
